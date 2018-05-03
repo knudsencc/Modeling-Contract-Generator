@@ -1,0 +1,37 @@
+
+html {
+    background-color: $background;
+}
+
+.backgroundSkew {
+    background-color: $darkGray;
+    transform: skewY(-10deg);
+    border-bottom: 1rem solid $midnightBlue;
+    width: 107vw;
+    height: 300px;  
+    transform: skewY(-7deg); 
+    margin-top: 8rem;
+    padding-top: -70rem;
+}
+ 
+.backgroundSkew > * {
+    transform: skewY(7deg);
+}
+
+.contract-heading {
+    text-align: center;
+    margin: -5px;
+    margin-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: $darkGray;
+    font-weight: 700;
+    font-family: $font-primary;
+}
+
+.contract-subheading {
+    margin-bottom: 46px;
+    color: rgba(255,255,255,0.75);
+    font-size: 15px;
+}

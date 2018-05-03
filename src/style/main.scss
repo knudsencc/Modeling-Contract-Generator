@@ -1,0 +1,14 @@
+
+@import 'variables';
+@import 'mixins';
+
+@import 'header';
+
+@import 'components/contract_form';
+@import 'components/contract_content';
+
+body {
+    font-family: $font-primary;    
+}
+    
+ 

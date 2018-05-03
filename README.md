@@ -1,0 +1,1 @@
+This Propgram will aturomatigly generate a Photographey Model release using the information input.
